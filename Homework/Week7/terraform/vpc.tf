@@ -6,4 +6,12 @@ module "vpc" {
     network_name = "module-vpc"
 
     shared_vpc_host = false
+
+    subnets = [
+        {
+            subnet_name           = "nate-wk7"
+            subnet_ip             = "10.0.10.0/24"
+            subnet_region         = "us-east1"
+        },
+    ]
 }
