@@ -1,9 +1,12 @@
 STEPS
-    1. Create a folder that will contain the project associated terraform files. This can be done in the file explorer app by navigating to the directory where you would like to create the file, right clicking with your mouse and selecting create folder (name the folder whatever you want). 
+    
+    1. Create a folder that will contain the project associated terraform files. This can be done in the file explorer app by navigating to the directory where you would like to create the file, right clicking with your mouse and selecting create folder (name the folder whatever you want).
+    
     2. Open VS Code and select file and then open folder. Navigate to the folder that you just created and then open it.
-    3. Next select the folder in the explorer tab in VS code and right beside it click the New File button (you can also select File and then click New File at the top left corner of the VS code Window).
-    Name the file main.tf and then click inside of the new window that appears for the file to get started.
-    4. Now inside of the main.tf file we will set up your provider (which cloud service you will be using) and the location where this project will be created. Luckily a guideline of how to set this up is provided by the Hashicorp company at https://registry.terraform.io/browse/providers. This information gives you guidance on how to use Terraform in accordance with whatever provider you will use. For this example we will be using Google Cloud so select it on the website.
+    
+    3. Next select the folder in the explorer tab in VS code and right beside it click the New File button (you can also select File and then click New File at the top left corner of the VS code Window). Name the file main.tf and then click inside of the new window that appears for the file         to get started.
+    4. Now inside of the main.tf file we will set up your provider (which cloud service you will be using) and the location where this project will be created. Luckily a guideline of how to set this up is provided by the Hashicorp company at https://registry.terraform.io/browse/providers.           This information gives you guidance on how to use Terraform in accordance with whatever provider you will use. For this example we will be using Google Cloud so select it on the website.
+    
     5. Now inside of VS Code on typed this out exactly as entered:
 
         terraform {
