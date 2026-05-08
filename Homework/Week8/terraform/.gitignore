@@ -1,6 +1,7 @@
 # Local .terraform directory (contains binaries/modules)
 .terraform/
 .terraform.lock.hcl
+.terraform
 
 # State files and backups
 *.tfstate
